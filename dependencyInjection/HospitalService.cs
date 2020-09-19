@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace dependencyInjection
 {
-    public class HospitalService
+    public class HospitalService : IHospitalService
     {
         private IMessageService messageService;
         private readonly IList<Patient> patients;
